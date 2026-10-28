@@ -1,6 +1,6 @@
 ## hey, i'm sachin
 
-cs + orie @ cornell. i mostly do backend and infra work for clubs and research teams.
+cs + orie @ cornell. i mostly do backend and infra work.
 
 <br>
 
