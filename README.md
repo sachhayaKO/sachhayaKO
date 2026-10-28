@@ -4,23 +4,23 @@ cs + orie @ cornell. i mostly do backend and infra work for clubs and research t
 
 <br>
 
-**team stuff**
+### team stuff
 
-| project | what it is |
-|:--|:--|
-| [**cba-ops**](https://github.com/cornell-business-analytics/cba-ops) <br><sub>next.js · fastapi · postgres</sub> | recruiting + member platform for cornell business analytics |
-| **alloydb omni** <br><sub>k8s · otel · grafana · private</sub> | debugging distributed ml training failures, with google |
-| [**pricetrace**](https://github.com/rab547/PriceTraceProject) <br><sub>flask · react · clip</sub> | upload a photo of clothes, find similar ones |
-| [**idol**](https://github.com/cornell-dti/idol) <br><sub>typescript</sub> | cornell dti's internal tools, used by 100+ members |
-| **diffusion research** <br><sub>pytorch · private</sub> | how the noise you start from shapes the image you get |
-| [**alignment playground**](https://github.com/arnavsriva/alignmentplayground) <br><sub>next.js · python</sub> | see how prompt rules trade safety off against helpfulness |
+| project | what it is | stack |
+|:--|:--|:--|
+| [**cba-ops**](https://github.com/cornell-business-analytics/cba-ops) | recruiting + member platform for cornell business analytics | next.js · fastapi · postgres |
+| **alloydb omni** (private) | debugging distributed ml training failures, with google | k8s · otel · grafana |
+| [**pricetrace**](https://github.com/rab547/PriceTraceProject) | upload a photo of clothes, find similar ones | flask · react · clip |
+| [**idol**](https://github.com/cornell-dti/idol) | cornell dti's internal tools, used by 100+ members | typescript |
+| **diffusion research** (private) | how the noise you start from shapes the image you get | pytorch |
+| [**alignment playground**](https://github.com/arnavsriva/alignmentplayground) | see how prompt rules trade safety off against helpfulness | next.js · python |
 
-**my own**
+### my own
 
-| project | what it is |
-|:--|:--|
-| [**raft**](https://github.com/sachhayaKO/raft) <br><sub>go · grpc</sub> | raft consensus from scratch, plus a kv store. kill nodes in the demo and watch it recover |
-| [**vol-surface-agent**](https://github.com/sachhayaKO/vol-surface-agent) <br><sub>python · langgraph</sub> | asks "is AAPL vol rich right now?" and answers with real numbers |
+| project | what it is | stack |
+|:--|:--|:--|
+| [**raft**](https://github.com/sachhayaKO/raft) | raft consensus from scratch, plus a kv store. kill nodes in the demo and watch it recover | go · grpc |
+| [**vol-surface-agent**](https://github.com/sachhayaKO/vol-surface-agent) | asks "is AAPL vol rich right now?" and answers with real numbers | python · langgraph |
 
 <br>
 
