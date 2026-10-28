@@ -1,25 +1,27 @@
-### Sachin Chhaya
+## hey, i'm sachin
 
-CS + ORIE at Cornell. Most of my work is on teams, either for clubs at Cornell or on research projects. I tend to end up on the infra and backend side, and I like work where things have to be correct under failure.
+cs + orie @ cornell. i mostly do backend and infra work for clubs and research teams.
 
-**Team and org work**
+<br>
 
-- **[cba-ops](https://github.com/cornell-business-analytics/cba-ops)** (Next.js, FastAPI, Postgres): the internal platform and public site for Cornell Business Analytics, replacing our old Wix site. I built a lot of the recruitment side: coffee chat tracking through Gmail + Google Sheets, eval scoring, bulk acceptance/rejection emails, and a generator for deliberation decks. I also built individual member pages with profile editing and an events page with publish/unpublish. One fix I'm happy with: headshots were burning through our Vercel image quota, so I moved them to 800px WebP on R2 and backfilled the old ones.
+**team stuff**
 
-- **AlloyDB Omni observability** (Kubernetes, OpenTelemetry, Grafana): a Cornell project with Google on diagnosing distributed ML training failures (OOMs, NCCL timeouts, NaN loss) by putting training logs, database logs and GPU telemetry in one place. I wrote the initial deployment manifests for the OTel / Prometheus / Loki / Grafana stack on GKE, the AlloyDB Omni overview dashboard, and log ingestion for the database. *(private repo)*
+| project | what it is |
+|:--|:--|
+| [**cba-ops**](https://github.com/cornell-business-analytics/cba-ops) <br><sub>next.js · fastapi · postgres</sub> | recruiting + member platform for cornell business analytics |
+| **alloydb omni** <br><sub>k8s · otel · grafana · private</sub> | debugging distributed ml training failures, with google |
+| [**pricetrace**](https://github.com/rab547/PriceTraceProject) <br><sub>flask · react · clip</sub> | upload a photo of clothes, find similar ones |
+| [**idol**](https://github.com/cornell-dti/idol) <br><sub>typescript</sub> | cornell dti's internal tools, used by 100+ members |
+| **diffusion research** <br><sub>pytorch · private</sub> | how the noise you start from shapes the image you get |
+| [**alignment playground**](https://github.com/arnavsriva/alignmentplayground) <br><sub>next.js · python</sub> | see how prompt rules trade safety off against helpfulness |
 
-- **[PriceTrace](https://github.com/rab547/PriceTraceProject)** (Flask, React, CLIP, ChromaDB): upload a photo of a piece of clothing and get visually similar items back. I built the first full-stack version (upload flow, frontend, and the backend connection) and started the CLIP + ChromaDB vector layer. I also wrote the scripts that index DeepFashion and fix up image paths, so the DB still works when someone moves the dataset to another machine.
+**my own**
 
-- **[IDOL](https://github.com/cornell-dti/idol)** (TypeScript): Cornell DTI's internal tools platform, used by 100+ members. I fixed a crash where coffee chats involving deleted members resolved to `undefined`. Unresolvable members now map to a placeholder, so the remaining member still gets credit, and I added tests for both sides of the chat.
+| project | what it is |
+|:--|:--|
+| [**raft**](https://github.com/sachhayaKO/raft) <br><sub>go · grpc</sub> | raft consensus from scratch, plus a kv store. kill nodes in the demo and watch it recover |
+| [**vol-surface-agent**](https://github.com/sachhayaKO/vol-surface-agent) <br><sub>python · langgraph</sub> | asks "is AAPL vol rich right now?" and answers with real numbers |
 
-- **Diffusion noise research** (PyTorch, diffusers): ORIE research on how the Gaussian noise input to a diffusion model relates to the image it generates. I added a deterministic DDIM sampler, generated a few thousand samples for the team's shared dataset, and reran the radius/angle analyses on DDIM with permutation tests. *(private repo)*
+<br>
 
-- **[Alignment Playground](https://github.com/arnavsriva/alignmentplayground)** (Cornell hackathon): a tool for seeing how system-prompt rules change model behavior across safety, helpfulness and false refusals. I worked on the live score panel, the false-refusal metric, baseline comparison, and the custom rule editor.
-
-**My own projects**
-
-- **[raft](https://github.com/sachhayaKO/raft)** (Go): Raft consensus from scratch with a friend. It has leader election, log replication, crash persistence, a replicated KV store, and gRPC between nodes, and it passes `go test -race`. The browser demo lets you kill nodes and watch the cluster recover. The [DEVLOG](https://github.com/sachhayaKO/raft/blob/main/DEVLOG.md) is basically me learning Go as I went.
-
-- **[vol-surface-agent](https://github.com/sachhayaKO/vol-surface-agent)** (Python, LangGraph): pulls a live options chain, solves for implied vol and greeks, compares them to realized vol, and answers questions like "is AAPL vol rich right now?" using recent filings for context. It scores 29/30 on a golden-question eval, and the [writeup](https://github.com/sachhayaKO/vol-surface-agent/blob/main/docs/EVALS.md) covers the bugs that testing caught.
-
-**Tools I reach for**: Python, TypeScript, Go, SQL, FastAPI, Next.js, Postgres, Docker, Kubernetes.
+<img src="https://skillicons.dev/icons?i=python,ts,go,cpp,postgres,nextjs,fastapi,docker,kubernetes&perline=9" height="32" />
